@@ -60,7 +60,12 @@ sql-data-warehouse-etl/
 │
 ├── datasets/                          # Raw source CSVs (ERP and CRM exports)
 │
-├── docs/                              # Architecture diagrams, data catalog, naming conventions
+├──    docs/
+   ├── diagrams.drawio
+   ├── architecture.png
+   ├── data_flow.png
+   ├── data_model_source.png
+   └── star_schema.png                             # Architecture diagrams, data catalog, naming conventions
 │
 ├── scripts/
 │   ├── init_database.sql              # Creates the DataWarehouse database and bronze/silver/gold schemas
